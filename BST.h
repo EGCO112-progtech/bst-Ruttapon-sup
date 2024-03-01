@@ -121,7 +121,8 @@ void rotateOrder( TreeNodePtr treePtr, int count )
       {   
          printf("    ");
       }
-      printf("%-3d\n",treePtr->data) ;
+      printf("%3d\n",treePtr->data) ;
+
       rotateOrder( treePtr->leftPtr , count+1);
    }
 }
