@@ -24,8 +24,8 @@ for ( i = 1; i < argc; ++i ) {
    // traverse the tree postOrder
    printf("\npostnOrder\n" );   postOrder( b.root );
 
-   printf("\nrotateOrder\n" );   rotateOrder( b.root,0 );
-
     printf("\n");
+   rotateOrder( b.root,0 );
+
 } // end main
 
